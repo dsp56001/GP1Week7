@@ -2261,6 +2261,23 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "MonoGameLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": "3.8.0.1641",
+          "MonoGame.Framework.WindowsDX": "3.8.0.1641"
+        },
+        "compile": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -7299,12 +7316,18 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "MonoGameLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MonoGameLibrary/MonoGameLibrary.csproj",
+      "msbuildProject": "../MonoGameLibrary/MonoGameLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
-      "MonoGame.Framework.WindowsDX >= 3.8.1.303"
+      "MonoGame.Framework.WindowsDX >= 3.8.1.303",
+      "MonoGameLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7315,11 +7338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\src\\Class7BreakOut\\Class7BreakOut\\Class7BreakOut.csproj",
+      "projectUniqueName": "C:\\Workspace\\src\\GP1Week7\\Class7BreakOut\\Class7BreakOut.csproj",
       "projectName": "Class7BreakOut",
-      "projectPath": "C:\\Workspace\\src\\Class7BreakOut\\Class7BreakOut\\Class7BreakOut.csproj",
+      "projectPath": "C:\\Workspace\\src\\GP1Week7\\Class7BreakOut\\Class7BreakOut.csproj",
       "packagesPath": "C:\\Users\\jmeyers\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\src\\Class7BreakOut\\Class7BreakOut\\obj\\",
+      "outputPath": "C:\\Workspace\\src\\GP1Week7\\Class7BreakOut\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7341,7 +7364,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Workspace\\src\\GP1Week7\\MonoGameLibrary\\MonoGameLibrary.csproj": {
+              "projectPath": "C:\\Workspace\\src\\GP1Week7\\MonoGameLibrary\\MonoGameLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

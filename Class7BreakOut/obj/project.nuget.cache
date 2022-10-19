@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svgiac6KY5gMc/9g8/qwwtJ5jIccCmJFUBiObE4a3JWrdQ4PB9gl7IyaVWp6uR4Iaxda7+T84l1yYQRxynlsrg==",
+  "dgSpecHash": "UiBITc1i0BVGG7qbnIPcKXALp+6DOKIwLuJdOwgFrtYsnQq/rUm1smr626IfCcEbW5JE9L59/0VjL8NSWfemzw==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\src\\Class7BreakOut\\Class7BreakOut\\Class7BreakOut.csproj",
+  "projectFilePath": "C:\\Workspace\\src\\GP1Week7\\Class7BreakOut\\Class7BreakOut.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmeyers\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\jmeyers\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
