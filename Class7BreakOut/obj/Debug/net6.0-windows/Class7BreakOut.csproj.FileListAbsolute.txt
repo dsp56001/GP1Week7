@@ -39,3 +39,16 @@ C:\Workspace\src\GP1Week7\Class7BreakOut\obj\Debug\net6.0-windows\refint\Class7B
 C:\Workspace\src\GP1Week7\Class7BreakOut\obj\Debug\net6.0-windows\Class7BreakOut.pdb
 C:\Workspace\src\GP1Week7\Class7BreakOut\obj\Debug\net6.0-windows\Class7BreakOut.genruntimeconfig.cache
 C:\Workspace\src\GP1Week7\Class7BreakOut\obj\Debug\net6.0-windows\ref\Class7BreakOut.dll
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\ballBig.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\ballSmall.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_blue.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_bubble.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_bubbleBig.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_earth.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_greenWaveBig.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_greenWaveSmall.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_red.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\block_yellow.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\paddleBig.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\paddleBiger.xnb
+C:\Workspace\src\GP1Week7\Class7BreakOut\bin\Debug\net6.0-windows\Content\paddleSmall.xnb

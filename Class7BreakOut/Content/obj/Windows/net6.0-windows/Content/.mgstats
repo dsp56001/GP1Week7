@@ -1,1 +1,14 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/ballBig.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/ballBig.xnb","TextureProcessor","Texture2DContent",1974,2485,0.1091206
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/ballSmall.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/ballSmall.xnb","TextureProcessor","Texture2DContent",1509,1109,0.0012562
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_blue.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_blue.xnb","TextureProcessor","Texture2DContent",1952,4181,0.0014469
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_bubble.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_bubble.xnb","TextureProcessor","Texture2DContent",2373,4053,0.0013324
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_bubbleBig.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_bubbleBig.xnb","TextureProcessor","Texture2DContent",2651,4181,0.0014038
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_earth.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_earth.xnb","TextureProcessor","Texture2DContent",3359,4309,0.0011267
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_greenWaveBig.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_greenWaveBig.xnb","TextureProcessor","Texture2DContent",3600,4181,0.0012592
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_greenWaveSmall.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_greenWaveSmall.xnb","TextureProcessor","Texture2DContent",2895,4181,0.0011206
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_red.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_red.xnb","TextureProcessor","Texture2DContent",1992,4181,0.0013876
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/block_yellow.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/block_yellow.xnb","TextureProcessor","Texture2DContent",1955,4181,0.0011491
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/paddleBig.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/paddleBig.xnb","TextureProcessor","Texture2DContent",4668,10837,0.0014656
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/paddleBiger.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/paddleBiger.xnb","TextureProcessor","Texture2DContent",4670,12373,0.0012934
+"C:/Workspace/src/GP1Week7/Class7BreakOut/Content/paddleSmall.png","C:/Workspace/src/GP1Week7/Class7BreakOut/Content/bin/Windows/Content/paddleSmall.xnb","TextureProcessor","Texture2DContent",4568,9301,0.0015086

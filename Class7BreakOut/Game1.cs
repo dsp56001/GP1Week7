@@ -9,11 +9,15 @@ namespace Class7BreakOut
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        MonogameBlock block;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            block = new MonogameBlock(this);
+            this.Components.Add(block);
         }
 
         protected override void Initialize()
