@@ -14,6 +14,7 @@ namespace Class7BreakOut
 
         MonogameBlock block;
         Ball ball;
+        Paddle paddle;
 
         public Game1()
         {
@@ -29,6 +30,9 @@ namespace Class7BreakOut
 
             ball = new Ball(this);
             this.Components.Add(ball);
+
+            paddle = new Paddle(this, ball);
+            this.Components.Add(paddle);
         }
 
         protected override void Initialize()

@@ -10,14 +10,18 @@ using System.Threading.Tasks;
 
 namespace Class7BreakOut
 {
+    public enum BallState { OnPaddleStart, Playing }
+    
     public class Ball : DrawableSprite
     {
         GameConsole console;
+        public BallState State;
         
         public Ball(Game game) : base(game)
         {
             this.Direction = new Vector2(1, 1);
             this.Speed = 200;
+            this.State = BallState.OnPaddleStart;
 
             //Lazy load game console
             console = (GameConsole)this.Game.Services.GetService<IGameConsole>();
@@ -45,11 +49,31 @@ namespace Class7BreakOut
         {
             time = (float)gameTime.ElapsedGameTime.Milliseconds / 1000;
             this.keepBallOnScreen();
+            this.UpdateBall();
             this.Location += this.Direction * (this.Speed * time);
             base.Update(gameTime);
 
             //Log Ball location to console
             console.Log("Ball Location", this.Location.ToString());
+        }
+
+        internal void LaunchBall(GameTime gametime)
+        {
+            this.State = BallState.Playing;
+            this.Direction = new Vector2(1, -1); //Launch left and up TODO check this
+        }
+
+        private void UpdateBall()
+        {
+            switch(this.State)
+            {
+                case BallState.OnPaddleStart:
+                    this.Speed = 0;
+                    break;
+                case BallState.Playing:
+                    this.Speed = 200;
+                    break;
+            }
         }
 
         private void keepBallOnScreen()
