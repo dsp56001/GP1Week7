@@ -33,6 +33,12 @@ namespace Class7BreakOut
             this.Location = new Vector2(100, 100);
         }
 
+        public override void Update(GameTime gameTime)
+        {
+            this.UpdateTexture();
+            base.Update(gameTime);
+        }
+
         private void UpdateTexture()
         {
             switch(block.BlockState)
@@ -45,6 +51,11 @@ namespace Class7BreakOut
                     break;
 
             }
+        }
+
+        public void HitByBall()
+        {
+            this.block.Hit();
         }
     }
 }

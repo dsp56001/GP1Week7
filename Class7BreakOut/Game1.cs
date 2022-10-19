@@ -41,6 +41,9 @@ namespace Class7BreakOut
 
             // TODO: Add your update logic here
 
+            //DEVTEST hit by ball
+            block.HitByBall(); //Simulate ball hit
+
             base.Update(gameTime);
         }
 
