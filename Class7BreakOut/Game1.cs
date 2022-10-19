@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGameLibrary.Util;
 
 namespace Class7BreakOut
 {
@@ -8,6 +9,8 @@ namespace Class7BreakOut
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        GameConsole console;
 
         MonogameBlock block;
         Ball ball;
@@ -17,6 +20,9 @@ namespace Class7BreakOut
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            console = new GameConsole(this);
+            this.Components.Add(console);
 
             block = new MonogameBlock(this);
             this.Components.Add(block);
@@ -39,6 +45,8 @@ namespace Class7BreakOut
             // TODO: use this.Content to load your game content here
         }
 
+        
+
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
@@ -47,7 +55,16 @@ namespace Class7BreakOut
             // TODO: Add your update logic here
 
             //DEVTEST hit by ball
-            block.HitByBall(); //Simulate ball hit
+            if(ball.Intersects(block))
+            {
+                console.GameConsoleWrite("Ball hit block" + gameTime.TotalGameTime.TotalMilliseconds);
+                if(ball.PerPixelCollision(block))
+                {
+                    console.GameConsoleWrite("Ball hit block per pices" + +gameTime.TotalGameTime.TotalMilliseconds);
+                    block.HitByBall();
+                }
+            }
+            
 
             base.Update(gameTime);
         }

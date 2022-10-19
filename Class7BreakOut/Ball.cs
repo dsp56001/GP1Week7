@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGameLibrary.Sprite;
+using MonoGameLibrary.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,20 @@ namespace Class7BreakOut
 {
     public class Ball : DrawableSprite
     {
-        
+        GameConsole console;
         
         public Ball(Game game) : base(game)
         {
             this.Direction = new Vector2(1, 1);
             this.Speed = 200;
+
+            //Lazy load game console
+            console = (GameConsole)this.Game.Services.GetService<IGameConsole>();
+            if(console == null)
+            {
+                console = new GameConsole(this.Game);
+                this.Game.Components.Add(console);
+            }
         }
 
         protected override void LoadContent()
@@ -38,6 +47,9 @@ namespace Class7BreakOut
             this.keepBallOnScreen();
             this.Location += this.Direction * (this.Speed * time);
             base.Update(gameTime);
+
+            //Log Ball location to console
+            console.Log("Ball Location", this.Location.ToString());
         }
 
         private void keepBallOnScreen()

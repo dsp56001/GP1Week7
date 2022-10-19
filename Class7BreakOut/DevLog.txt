@@ -5,3 +5,5 @@ Block state updates when hit JM
 Ball
 I didn't make a poco class for ball I'm not sure I need one
 trying to think of some state the ball needs so far I got nothing
+
+22 bounces of wasted time
