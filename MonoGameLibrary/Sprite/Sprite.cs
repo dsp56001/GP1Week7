@@ -91,13 +91,13 @@ namespace MonoGameLibrary.Sprite
            this.SpriteMarkersTexture = this.Game.Content.Load<Texture2D>("SpriteMarker");
             
             //top left orgin
-            //this.Origin = Vector2.Zero;
+            this.Origin = Vector2.Zero;
 
             //set default color to white
             this.DrawColor = Color.White;
             
             //center orgin
-            this.Origin = new Vector2(this.spriteTexture.Width / 2, this.spriteTexture.Height / 2);
+            //this.Origin = new Vector2(this.spriteTexture.Width / 2, this.spriteTexture.Height / 2);
             base.LoadContent();
         }
 
